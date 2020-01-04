@@ -1,0 +1,37 @@
+.enter-center {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.enter {
+    position: absolute;
+    top: 560px;
+    /*........*/
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.enterbtn {
+    background-color: transparent;
+    border-style: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 1.5em;
+    margin: 0 auto;
+}
+
+#Go-index,
+#Go-login,
+#Go-register {
+    background-color: transparent;
+    border-style: none;
+    text-decoration: none;
+}

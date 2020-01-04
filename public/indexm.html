@@ -1,0 +1,175 @@
+<!--要想改变导航栏的位置，改变margin属性，千万不要加上position后改变top和left！！！！！-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/navigator-bar.css">
+    <link rel="stylesheet" href="stylesheets/bodystyle.css">
+    <link rel="stylesheet" href="stylesheets/background.css">
+    <link rel="icon" href="images/logo-of-title.png" type="image/x-icon">
+    <!--<link rel="stylesheet" href="rotation.css">-->
+    <title>科普江湖-来江湖，做大侠！</title>
+</head>
+
+<body style="overflow: auto;">
+    <header>
+        <div class="nav">
+            <ul class="dropdown">
+                <li>
+                    <img src="images/logo2.png" class="logo">
+                </li>
+                <li>
+                    <!--dropdown.children-->
+                    <a href="javascript:;" class="dropbtn">精彩内容</a>
+                    <!--dropdown-content[0]-->
+                    <div class="dropdown-content">
+                        <!--dropdown-content[1]-->
+                        <a href="../精彩内容/学习方法/学习方法.html" target="_blank">学习方法</a>
+                        <a href="../精彩内容/人文史趣/人文史趣.html" target="_blank">人文史趣</a>
+                        <a href="../精彩内容/自然科学/自然科学.html" target="_blank">自然科学</a>
+                        <a href="../精彩内容/众说纷纭/众说纷纭.html" target="_blank">众说纷纭</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dropbtn">联系我们</a>
+                    <div class="dropdown-content">
+                        <a href="../联系我们/关于我们/关于我们.html" target="_blank">关于我们</a>
+                        <a href="../联系我们/商务合作/商务合作.html" target="_blank">商务合作</a>
+                        <a href="../联系我们/投稿/投稿.html" target="_blank">我要投稿</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dropbtn">科学小品</a>
+                    <div class="dropdown-content">
+                        <a href="../科学小品/柯普江湖/柯普江湖.html" target="_blank">柯普江湖</a>
+                        <a href="../科学小品/书评化学/书评化学.html" target="_blank">书评化学</a>
+                        <a href="../科学小品/大话物理/大话物理.html" target="_blank">大话物理</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dropbtn">专栏系列</a>
+                    <div class="dropdown-content">
+                        <a href="../专栏/二战系列/二战系列.html" target="_blank">二战系列</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="_dropdown" id="other">
+                <a href="javascript:;" id="search">搜索</a>
+                <a href="login.html" id="login" target="_blank">登录</a>
+                <a href="register.html" id="register" target="_blank">注册</a>
+            </ul>
+        </div>
+    </header>
+    <div class="background-picture">
+        <div class="content">
+            <div class="rotation">
+                <div class="mainlink">
+                    <!-- <img id="pic" src="images/1.png" /> -->
+                </div>
+                <div class="ltgtbox">
+                    <div class="rotation-btn" id="left">&lt;</div>
+                    <div class="rotation-btn" id="right">&gt;</div>
+                </div>
+            </div>
+            <div class="content-1">
+
+            </div>
+            <div class="content-2">
+
+            </div>
+            <div class="content-3">
+
+            </div>
+            <div class="content-4">
+
+            </div>
+            <div class="content-5">
+
+            </div>
+            <div class="content-6">
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <p style="font-size: 14px;color:grey;text-align:center;">su29029,因为心在那里 © 2017 - 2019</p>
+        <p style="text-align: center;font-size:14px;color:grey;">FE:su29029/BE:su29029/UI:su29029</p>
+        <p style="text-align: center;font-size:14px;color:grey;">科普江湖-来江湖，做大侠!</p>
+    </footer>
+
+    <!--
+    <div class="text-effect">
+        <div class="video-text">
+            <video autoplay="autoplay" class="kepujianghu" muted>
+                <source src="./video/text.mp4">
+            </video>
+        </div>
+    </div>
+    <div class="enter-center">
+        <div class="enter">
+            <li class="enterbtn"><a href="index.html" id="Go-index">进入主页</a></li>
+            <li class="enterbtn"><a href="login/login.html" id="Go-login">登录</a></li>
+            <li class="enterbtn"><a href="register/register.html" id="Go-register">注册</a></li>
+        </div>
+    </div>
+-->
+
+    <!--
+    <div id="rotation">
+        <div class="picture">
+            <img id="pic" src="../index/pic/1.jpg" />
+        </div>
+        <div class="rotation-lists">
+            <ul id="rotation-list">
+                <li class="rotation-li"></li>
+                <li class="rotation-li"></li>
+                <li class="rotation-li"></li>
+                <li class="rotation-li"></li>
+                <li class="rotation-li"></li>
+                <li class="rotation-li"></li>
+                <li class="rotation-li"></li>
+                <li class="rotation-li"></li>
+                <li class="rotation-li"></li>
+            </ul>
+        </div>
+        <div class="btnbox">
+            <div class="rotation-btn" id="left">&lt;</div>
+            <div class="rotation-btn" id="right">&gt;</div>
+        </div>
+    </div>
+-->
+
+    <!--
+    <script src="rotation.js"></script>
+-->
+    <script src="javascripts/index-navigator-bar.js"></script>
+    <script src="javascripts/enter.js"></script>
+    <script src="javascripts/rotation.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+-->

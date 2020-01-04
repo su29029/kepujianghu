@@ -1,0 +1,57 @@
+.bodycontent {
+    padding: 3em;
+}
+
+.list-item {
+    z-index: -1;
+    top: 50%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 60%;
+    height: 5%;
+    border-radius: 4px;
+    box-shadow: 0 0 3px #000;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    margin-top: 10px;
+}
+
+.item-pic {
+    padding: 10px;
+}
+
+.item-pic a img {
+    position: relative;
+    width: 140px;
+    height: 100px;
+}
+
+.item-content {
+    position: relative;
+    left: 10px;
+}
+
+.item-content a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-content p span {
+    padding-right: 2em;
+}
+
+.item-content p {
+    color: gray;
+}
